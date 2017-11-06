@@ -1,0 +1,4 @@
+FROM python:3
+ADD pythonScript01.py /
+RUN pip install pystrich
+CMD ["python", "./pythonScript01.py"]
